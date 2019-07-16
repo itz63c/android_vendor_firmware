@@ -6,6 +6,7 @@ FIRMWARE_IMAGES := \
     dsp \
     modem \
     nvdef \
-    tz
+    tz \
+    xbl
 
 AB_OTA_PARTITIONS += $(FIRMWARE_IMAGES)
